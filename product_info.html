@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-wdith, initital-scale=1.0">
+    <title>All Products - PrimeStudio Pro Sports</title>
+    <link rel="stylesheet" href = "style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navigationbar">
+            <div class="logo">
+                <a href="index.html"><img src="" width="250px"></a>
+            </div>
+            <nav>
+                <ul id="Menu_Items">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product_info.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="user_info.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="order_info.html"><img src="cart.png" height="30px" width="30px"></a>
+            <img src="menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>      
+    </div>
+    <div class="row">
+        <h2>All Products</h2>
+        <select>
+            <option>Default Sorting</option>
+            <option>Sort by price</option>
+            <option>Sort by popularity</option>
+            <option>Sort by rating</option>
+            <option>Sort by sale</option>
+        </select>
+    </div>
+
+    <div class="small-container one-product">
+        <div class="row">
+            <div class="col-2 small images"></div>
+                <img src="Adidas1.png"  width="30%" id="product_images" class="image1">
+                <div class="small_image1">
+                    <br>
+                    <div class="small_col1">
+                        <img src="Adidas3.png" width="60%" height="100%" class="images">
+                    </div>
+                    <br>
+                    <div class="small_col1">
+                        <img src="Adidas4.png" width="60%" height = "100%" class="images">
+                    </div>
+                    <br>
+                    <div class="small_col1">
+                        <img src="Adidas5.png" width="60%" height="100%" class="images">
+                    </div>
+                    <br>
+                </div>
+            </div>
+            <div class="col-2">
+                <br>
+                <br>
+                <h1>Adidas Fleece Track Pants</h1>
+                <br>
+                <h3>Product Details <i class="fa fa-indent"></i></h3>
+                <br>
+                <p>Adidas fleece track pants are the pinnacle of comfort and style. Made from premium fleece, they offer a plush, soft feel. With the iconic three stripes and discreet logo, they seamlessly blend sporty and chic. The elastic waistband ensures a secure fit, making them perfect for the gym or lounging at home. Upgrade your athleisure game with Adidas fleece track pants.</p>
+                <br>
+                <h5>Sale: $50.00</h5>
+                <select>
+                    <option>Select Size</option>
+                    <option>XXL</option>
+                    <option>XL</option>
+                    <option>Large</option>
+                    <option>Medium</option>
+                    <option>Small</option>
+                    <option>XS</option>
+                </select>
+                <br>
+                <input type="number" value="1"> 
+                <br>
+                <br>
+                <a href="" class = "btn-add">Add to cart</a>
+            </div>
+        </div>
+    </div>
+        <div class="small-container">
+            <div class="row row_2">
+                <h2>Related Products</h2>
+            </div>
+        </div>
+
+    <div class="small-container">
+            <div class="row">
+                <div class="column_4">
+                    <div class="image-wrapper">
+                    <img src="Adidas6.png">
+                </div>
+                    <br>
+                    <h4>Adidas Men's Badge Of Sport Tee</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <br>
+                    <p>$89.99</p>
+                    <a href="" class="btn-cart">Add to cart &#8594;</a>
+                </div>
+                <div class="column_4">
+                    <div class="image-wrapper">
+                    <img src="Puma3.png">
+                    </div>
+                    <br>
+                    <h4>Puma Women's Track Pants</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <br>
+                    <p>$45.00</p>
+                    <a href="" class="btn-cart">Add to cart &#8594;</a>
+                </div>
+                <div class="column_4">
+                    <div class="image-wrapper">
+                        <img src="Adidas7.png">
+                    </div>
+                    <br>
+                    <h4>Adidas Men's T-shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>$89.99</p>
+                    <br>
+                    <a href="" class="btn-cart">Add to cart &#8594;</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column_4">
+                    <div class="image-wrapper">
+                        <img src="Nike7.png">
+                    </div>
+                    <br>
+                    <h4>Men's Nike Dri-FIT Training Tee</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>$50.00</p>
+                    <br>
+                    <a href="" class="btn-cart">Add to cart &#8594;</a>
+                </div>
+                <div class="column_4">
+                    <div class="image-wrapper">
+                        <img src="A3.jpeg">
+                    </div>
+                    <br>
+                    <h4>Custom Chuck Taylor Platform</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>$95.00</p>
+                    <br>
+                    <a href="" class="btn-cart">Add to cart &#8594;</a>
+                </div>
+                <div class="column_4">
+                    <div class="image-wrapper">
+                        <img src="Vans3.png">
+                    </div>
+                    <br>
+                    <h4>Van's Old Skool Shoes Red and White</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>$55.00</p>
+                    <br>
+                    <a href="" class="btn-cart">Add to cart &#8594;</a>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-column1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for ios and Android mobile pho</p>
+                    <div class="logo-app">
+                        <img src="play-store.png">
+                        <img src="app-store.png">
+                    </div>
+                </div>
+                <div class="footer-column2">
+                    <img src="">
+                    <p></p>
+                </div>
+                <div class="footer-column3">
+                    <h3>Check out these links!</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-column4">
+                    <h3>Follow Us!</h3>
+                    <ul>
+                        <li>Instagram</li>
+                            <div class = "instagram-media">
+                                <img src="Instagram.png">
+                            </div>
+                        <li>Facebook</li>
+                        <div class = "facebook-media">
+                            <img src="facebook_logo.png">
+                        </div>
+                        <li>Twitter</li>
+                        <div class = "twitter-media">
+                            <img src="twitter_logo.png">
+                        </div>
+                        <li>Youtube</li>
+                        <div class = "youtube-media">
+                            <img src="youtube_logo.avif">
+                        </div>
+                    </ul>
+                </div>
+            </div>
+             <hr>
+             <p class = "copyright">Copyright 2020 -  Trendy Threads</p>
+        </div>
+    </div>
+    <script>
+        var MenuItems = document.getElementById("Menu_Items");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px"){
+                MenuItems.style.maxHeight = "200px";
+            }
+            else{
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+    <script>
+        var product_images = document.getElementBYId("product_images");
+        var Small_Image = document.getElementsByClassName("small_image1");
+        Small_Image[0].onclick = function()
+        {
+            product_images.src = Small_Image[0].src;
+        }
+        Small_Image[1].onclick = function()
+        {
+            product_images.src = Small_Image[1].src;
+        }
+        Small_Image[2].onclick = function()
+        {
+            product_images.src = Small_Image[2].src;
+        }
+        Small_Image[3].onclick = function()
+        {
+            product_images.src = Small_Image[3].src;
+        }
+    </script>
+</body>
+</html> 
