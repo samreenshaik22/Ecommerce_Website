@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-wdith, initital-scale=1.0">
+    <title>All Products - PrimeStudio Pro Sports</title>
+    <link rel="stylesheet" href = "style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navigationbar">
+            <div class="logo">
+                <a href="index.html"><img src="" width="250px"></a>
+            </div>
+            <nav>
+                <ul id="Menu_Items">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product_info.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="user_info.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="order_info.html"><img src="cart.png" height="30px" width="30px"></a>
+            <img src="menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>      
+    </div>
+
+    <div class="login">
+        <div class="container">
+            <div class="row">
+                <div class="col_2">
+                    <div class="login_form">
+                            <div class="login-btn">
+                                <span onclick="login()">Login</span>
+                                <span onclick="register()">Register</span>
+                                <hr id="cursor">
+                            </div>
+
+                            <form id="first_form">
+                                <input type="text" placeholder="Username">
+                            <input type="password" placeholder="Password">
+                            <button type="submit" class="btn">Login</button>
+                            <a href="">Forgot Password</a>
+                        </form>
+                        <form id="second_form">
+                            <input type="text" placeholder="Username">
+                            <input type="email" placeholder="Email">
+                            <input type="password" placeholder="Password">
+                            <button type="submit" class="btn">Register</button>
+                            <a href="">Forgot Password</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-column1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for ios and Android mobile pho</p>
+                    <div class="logo-app">
+                        <img src="play-store.png">
+                        <img src="app-store.png">
+                    </div>
+                </div>
+                <div class="footer-column2">
+                    <img src="">
+                    <p>Add Notes Here</p>
+                </div>
+                <div class="footer-column3">
+                    <h3>Check out these links!</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-column4">
+                    <h3>Follow Us!</h3>
+                    <ul>
+                        <li>Instagram</li>
+                            <div class = "instagram-media">
+                                <img src="Instagram.png">
+                            </div>
+                        <li>Facebook</li>
+                        <div class = "facebook-media">
+                            <img src="facebook_logo.png">
+                        </div>
+                        <li>Twitter</li>
+                        <div class = "twitter-media">
+                            <img src="twitter_logo.png">
+                        </div>
+                        <li>Youtube</li>
+                        <div class = "youtube-media">
+                            <img src="youtube_logo.avif">
+                        </div>
+                    </ul>
+                </div>
+            </div>
+             <hr>
+             <p class = "copyright">Copyright 2020 -  Trendy Threads</p>
+        </div>
+    </div>
+    <script>
+        var MenuItems = document.getElementById("Menu_Items");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px"){
+                MenuItems.style.maxHeight = "200px";
+            }
+            else{
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+    <script>
+        var Login_form = document.getElementById("first_form");
+        var Register_form = document.getElementById("second_form");
+        var Cursor = document.getElementById("cursor");
+
+        function register(){
+            Register_form.style.transform = "translateX(0px)";
+            Login_form.style.transform = "translateX(0px)";
+            Cursor.style.transform = "translateX(100px)";
+        }
+
+        function login(){
+            Register_form.style.transform = "translateX(300px)";
+            Login_form.style.transform = "translateX(300px)";
+            Cursor.style.transform = "translateX(0px)";
+        }
+    </script>
+</body>
+</html> 
