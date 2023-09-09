@@ -31,10 +31,10 @@ Explore the HTML, CSS, and JavaScript files to review the front-end codebase.
 
 ## Technologies Used:
 
-HTML5
-CSS3
-JavaScript
-Responsive Web Design
-jQuery
-Bootstrap
+HTML5 |
+CSS3  |
+JavaScript |
+Responsive Web Design |
+jQuery |
+Bootstrap |
 GitHub for version control
