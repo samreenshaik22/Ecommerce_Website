@@ -13,7 +13,6 @@ As a Front-End Web Developer, my role in this project was to design and develop 
     - Cross-browser compatibility and mobile responsiveness.
     - Integration of third-party libraries (e.g., jQuery, Bootstrap).
     - Front-end optimization for fast page loading.
-    - Collaboration with design teams for brand consistency.
 
 ## Getting Started
 
