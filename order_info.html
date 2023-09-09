@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-wdith, initital-scale=1.0">
+    <title>All Products - PrimeStudio Pro Sports</title>
+    <link rel="stylesheet" href = "style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navigationbar">
+            <div class="logo">
+                <a href="index.html"><img src="" width="250px"></a>
+            </div>
+            <nav>
+                <ul id="Menu_Items">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product_info.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="user_info.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="order_info.html"><img src="cart.png" height="30px" width="30px"></a>
+            <img src="menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>      
+    </div>
+    <div class="small-container cart">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+
+            </tr>
+            <tr>
+                <td><div class="cart_info">
+                    <img src="A9.jpeg">
+                    <div>
+                        <p>Printed Tshirt</p>
+                        <small>Price: $50.00</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div></td>
+                <td><input type="number" value="1"></td>
+                <td>$50.00</td>
+            </tr>
+            <tr>
+                <td><div class="cart_info">
+                    <img src="A8.jpeg">
+                    <div>
+                        <p>Printed Tshirt</p>
+                        <small>Price: $50.00</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div></td>
+                <td><input type="number" value="1"></td>
+                <td>$50.00</td>
+            </tr>
+            <tr>
+                <td><div class="cart_info">
+                    <img src="A7.jpeg">
+                    <div>
+                        <p>Printed Tshirt</p>
+                        <small>Price: $50.00</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div></td>
+                <td><input type="number" value="1"></td>
+                <td>$50.00</td>
+            </tr>
+        </table>
+
+        <div class="total_price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>$200.00</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>$200.00</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>$200.00</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-column1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for ios and Android mobile pho</p>
+                    <div class="logo-app">
+                        <img src="play-store.png">
+                        <img src="app-store.png">
+                    </div>
+                </div>
+                <div class="footer-column2">
+                    <img src="">
+                    <p></p>
+                </div>
+                <div class="footer-column3">
+                    <h3>Check out these links!</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-column4">
+                    <h3>Follow Us!</h3>
+                    <ul>
+                        <li>Instagram</li>
+                            <div class = "instagram-media">
+                                <img src="Instagram.png">
+                            </div>
+                        <li>Facebook</li>
+                        <div class = "facebook-media">
+                            <img src="facebook_logo.png">
+                        </div>
+                        <li>Twitter</li>
+                        <div class = "twitter-media">
+                            <img src="twitter_logo.png">
+                        </div>
+                        <li>Youtube</li>
+                        <div class = "youtube-media">
+                            <img src="youtube_logo.avif">
+                        </div>
+                    </ul>
+                </div>
+            </div>
+             <hr>
+             <p class = "copyright">Copyright 2020 -  Trendy Threads</p>
+        </div>
+    </div>
+    <script>
+        var MenuItems = document.getElementById("Menu_Items");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px"){
+                MenuItems.style.maxHeight = "200px";
+            }
+            else{
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+</html> 
