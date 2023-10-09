@@ -14,20 +14,6 @@ As a Front-End Web Developer, my role in this project was to design and develop 
     - Integration of third-party libraries (e.g., jQuery, Bootstrap).
     - Front-end optimization for fast page loading.
 
-## Getting Started
-
-To run the project locally or contribute to its development, follow these steps:
-
-1. Clone this repository:
-
-   ```bash
-   git clone https://github.com/yourusername/Ecommerce_Website
-
-2.Open the project in your preferred code editor.
-
-Explore the HTML, CSS, and JavaScript files to review the front-end codebase.
-
-
 ## Technologies Used:
 
 HTML5 |
