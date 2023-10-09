@@ -4,7 +4,7 @@ Welcome to the E-Commerce Website Front-End Project repository! This project foc
 
 ## Project Overview
 
-As a Front-End Web Developer, my role in this project was to design and develop the user interface (UI) of the e-commerce website. Here's an overview of the project:
+My role in this project was to design and develop the user interface (UI) of the e-commerce website. Here's an overview of the project:
 
 - **Objective**: Create an attractive, responsive, and intuitive UI for an e-commerce platform.
 - **Responsibilities**: Translate design mockups into HTML, CSS, and JavaScript, ensuring a seamless user experience.
